@@ -1,0 +1,39 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.bucket-list {
+    max-width: 700px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bucket-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h4 {
+    color: #555;
+    margin-top: 20px;
+}
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 1.1em;
+    transition: 0.3s;
+}
+
+.list-group-item:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+}
